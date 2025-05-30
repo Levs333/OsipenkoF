@@ -1,0 +1,190 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: black;
+  margin: 0;
+}
+
+header {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+nav {
+  background-color: yellow;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: blueviolet;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgb(5, 249, 21);
+}
+
+main {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 32px;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.product-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 45%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.product-image {
+  background-color: #ccc;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: rgb(205, 205, 41);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: yellow;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.footer-logo {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.live-bakery {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.bakery-image {
+  background-color: #ccc;
+  height: 400px;
+  margin: 20px auto;
+  width: 80%;
+}
+
+
+.advantages {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.advantage-card {
+  background-color: yellow;
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+}
+
+.card-image {
+  background-color: #ccc;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.advantages ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  margin: 0 auto;
+  width: 60%;
+}
+
+.advantages li {
+  margin-bottom: 10px;
+}
+.logo{
+  animation: color-change 3s infinite;
+}
+@keyframes color-change{
+    0%{color:blue;}
+    25%{color: red;}
+    50%{color: yellow;}
+    100%{color: green;}
+}
+    nav a:hover{
+    background-image:linear-gradient(rgb(219, 241, 25),rgb(32, 241, 36)) ;
+    box-shadow: 0 10px 5px rgb(255, 221, 2),0 20px 5px 0 rgb(255, 0, 0);
+    transition:0.5s linear ;
+}
+h2:hover{
+  font-size: 40px;
+  transition: 0.5s ease-out;
+  color:green ;
+}
+.cla:hover{
+  border: 6px solid navy;
+  transition: 0.8s linear;
+  padding: 5px;
+  width: 400px;
+
+}
+.logo:hover{
+  font-size: 40px;
+  transition: 0.5s ease-out
+}
+p{
+  color: black;
+}
+p:hover{
+  font-size: 25px;
+  transition: 0.7s ease-out;
+  color: green;
+}
+ul:hover{
+  font-size: 27px;
+  transition: 0.7s ease-out;
+  color: green;
+}
